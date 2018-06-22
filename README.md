@@ -23,7 +23,7 @@ const stream = pull(
   reduce((a, b) => `${a} ${b}`));
 
 const {value} = await stream.next();
-console.log(value); // prints "Hello World"
+console.log(value); // prints "Hello world"
 ```
 
 ## What's missing?
