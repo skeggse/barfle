@@ -6,7 +6,7 @@ const got = require('got');
     from([1, 2]),
     map((index) => `https://raw.githubusercontent.com/skeggse/barfle/master/examples/fixtures/sample-${index}.txt`),
     map(async (url) => (await got(url)).body),
-    deadline(50),
+    deadline(10000),
     reduce((a, b) => `${a} ${b}`));
 
   try {
