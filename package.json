@@ -1,0 +1,36 @@
+{
+  "name": "barfle",
+  "version": "0.1.0",
+  "description": "A minimal utility belt for streaming with async iterables",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/skeggse/barfle.git"
+  },
+  "keywords": [
+    "streams",
+    "stream",
+    "minimal",
+    "async",
+    "asynchronous",
+    "iterable",
+    "iterables",
+    "await"
+  ],
+  "author": "Eli Skeggs <dev@eliskeggs.com> (https://eliskeggs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skeggse/barfle/issues"
+  },
+  "homepage": "https://github.com/skeggse/barfle#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "got": "^8.3.1"
+  },
+  "dependencies": {
+    "heap": "^0.2.6"
+  }
+}
